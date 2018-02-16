@@ -1,0 +1,84 @@
+/* add your CSS here */
+
+html {
+    font-size: 62.5%;
+    /* font-size 1em = 10px on default browser settings */
+    background-color: #F5F5F6;
+    color: #003300;
+}
+
+body,
+body * {
+    margin: 0;
+    padding: 0;
+    font-family: 'muli', serif;
+    line-height: 1.4rem;
+}
+
+.container {
+    /* display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-around; */
+    background: #fff;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 1rem;
+    padding: 2.4rem 1.4rem 1rem 1.4rem;
+    border: 1px solid #E1E2E1;
+    box-shadow: 10px 10px 0px -5px rgba(27, 94, 32, .6);
+}
+
+.container h3 {
+    font-family: 'Lora', serif;
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 1.2rem;
+    margin-bottom: 2rem;
+    color: #003300;
+}
+
+img.animalpic {
+    margin-bottom: 1rem
+}
+
+.innerbox {
+    border: 1px solid#E1E2E1;
+    padding: 1.4rem 1.4rem 0 1.4rem;
+}
+
+p.facts {
+    font-family: 'Lora', serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+    margin-bottom: 1.4rem
+}
+
+ul.list {
+    list-style: none;
+    line-height: 1.2rem;
+    margin-bottom: 1.4rem
+}
+
+ul.list li {
+    margin-bottom: 0;
+    font-size: 1.1rem;
+}
+
+ul.list span {
+    font-weight: 600;
+    display: inline-block;
+    margin-bottom: 0;
+    font-size: 1.1rem;
+    width: 8.8em
+}
+
+img {
+    max-width: 100%;
+}
+
+p.description {
+    margin-bottom: 1.2rem;
+    font-size: 1.1rem;
+}
